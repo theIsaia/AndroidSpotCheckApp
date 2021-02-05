@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Spot Check app</string>
+    <string name="title_activity_add_spot_check">addSpotCheck</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="time_of_spotcheck">time of Spotcheck</string>
+    <string-array name="spot_Check_Action">
+        <item>No action required</item>
+        <item>advice given</item>
+        <item>produce documents</item>
+        <item>driver detained</item>
+    </string-array>
+    <string-array name="spot_check_category">
+        <item>date</item>
+        <item>location</item>
+        <item>carModel</item>
+        <item>carRegNr</item>
+        <item>spotCheckResult</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
