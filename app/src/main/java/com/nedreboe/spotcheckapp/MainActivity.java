@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Initialises the recyclerView
+        //Initialises the recyclerView now
         recyclerView = findViewById(R.id.RecyclerSpotCheck2);
         adapter = new SpotCheckListAdapter(this, spotCheckList);
         recyclerView.setAdapter(adapter);
